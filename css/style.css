@@ -1,0 +1,855 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700&display=swap');
+body{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+	background-color:white;
+	font-family:'Raleway', sans-serif;
+}
+
+section{
+	height:100%;
+	width:100%;
+	margin-top:100px;
+	margin-bottom:100px;
+	
+}
+p{
+	color:gray;
+}
+.subtitle{
+	font-size:14pt;
+}
+.carousel-caption h1{
+	font-weight:700;
+	font-size:35pt;
+	letter-spacing:2;
+	color:white;
+}
+.carousel-caption p{
+
+	color:white;
+	
+}
+
+.carousel-caption{
+	padding-bottom:80px;
+	background-color:black;
+	opacity:.8;
+	height:auto;
+	width:100%;
+	left:0%;
+	right:0%;
+	padding-top:170px;
+	bottom:0;
+	top:0;
+}
+h1{
+	color:#00ff00;
+	text-align:center;
+	padding-bottom:3%;
+	font-weight:700;
+	font-family:'Raleway', sans-serif;
+	 letter-spacing: 2px;
+}
+h6{
+	font-weight:900;
+	font-family:'Raleway', sans-serif;
+	padding-left:1%;
+	color:#cce6ff;
+	 letter-spacing: 2px;
+}
+header,.container,html,body{
+	height:auto;
+	width:100%;
+}
+header .container-fluid{
+    padding-right:0px;
+    padding-left:0px;
+
+}
+.nav-link:hover{
+	background-color:#3385ff;
+	color:white;
+	border-radius:5%;
+}
+header .bd-example{
+	padding-top:77px;
+	
+}
+/*---- manu part -----*/
+.navbar-nav{
+	padding-right:50px;
+}
+.navbar-brand{
+	padding-left:80px;
+	font-weight:700;
+	font-size:20pt;
+}
+.nav-link,.navbar-brand{
+	color:white;
+	background-attachment:fixed;
+	background-position:top;
+	
+	
+}
+header ul{
+	background-color:black;
+	
+}
+signup{
+	background-image: url("../signup.gi");
+	color:black;
+	position:fixed;
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+	width:100%;
+	height:auto;
+}
+header{
+	 background-image: url("../");
+	position:no-repeat;
+	padding:0px;
+	margin:0px;
+	color:white;
+}
+
+#top ul{
+	background-color: #242442;
+	width:100%;
+	margin-left:0px;
+}
+#top .nav{
+
+	z-index:20;
+	
+}
+#top{
+	left:0;
+	 position: fixed;
+	top:0;
+	overflow: hidden;
+	width: 100%;
+	z-index:20;
+	
+}
+.navbar{
+    background-color:#000000;
+	left:0;
+	position: fixed;
+	top: 5%;
+	overflow: hidden;
+	width: 100%;
+	z-index:20;
+}
+
+.btn{
+	color:white;
+	background-color:#33cc33;
+	text-align:center;
+}
+
+a i{
+	color:#33cc33;
+}
+.fa-at,.fa-phone-square-alt{
+	color:#33cc33;
+	
+}
+*/
+/*----   service  -----*/
+#service{	
+background-color:#e6ffe6;
+}
+#service .fas{
+	text-align:center;
+	font-size: 2rem;
+}
+#service a i{
+	border:1px solid #33cc33;
+	border-radius:50%;
+	height:70px;
+	width:70px;
+	text-align:center;
+	padding-top: 5%;
+	font-size: 2rem;
+	  transition:all 1s;
+	  color:#33cc33;
+	   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#service a i:hover{
+	background-color:#33cc33;
+	color:white;
+	 transform: rotateZ(360deg)
+}
+.center-block h4{
+	padding-top:5%;
+	text-align:center;
+	
+}
+.center-block, .col-sm-4 p{
+	padding-bottom:5%;
+	text-align:center;
+	
+}
+/*----   welcome part  -----*/
+#welcome{
+	background-color:white;
+	
+}
+.col-sm-6{
+	
+	width:100%;
+	height:auto;
+	
+}
+.w_text{
+	padding-top:15%;
+	padding-left:5%;
+	font-family: 'Open Sans', sans-serif;
+	font-family:100%;
+	font-weight: 400;
+	line-height: 1.5;
+    text-align: left;
+	
+}
+#welcome img{
+	height:300px;
+	width:300px;
+	border-radius:50%;
+	margin-bottom:5%;
+	margin-top:5%;
+	margin-left:10%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+/*----   GALLERY part  -----*/
+#gallery p{
+	text-align:center;
+}
+
+/*----  about   -----*/
+#about p{
+	color:gray;
+	line-height:20pt;
+	font-size:12pt;
+	text-align:left;
+}
+#about{
+	background-color: #e6f2ff;
+	font-family:'Raleway', sans-serif;
+	padding-top: 100px;
+    margin-top: 0px;
+	
+	
+}
+#about h1,h6{
+	text-align:left;
+}
+#about h6{
+	text-align:left;
+	color:#3385ff;
+}
+#a-1{
+	position:relative;
+
+}
+#a-2 img{
+	position:absolute;
+	
+	top:15%;
+	right:75%;
+	border-radius:2%;
+}
+#about .container .row{
+	padding-bottom:10%;
+	
+}
+
+/*----   package  -----*/
+#package .f{
+	color:gray;
+	float:right;
+	
+}
+#package .d-block{
+	width:80%;
+	height:200px;
+	
+}
+/*----     -----*/
+/*----  counter   -----*/
+#counter h2{
+	color:white;
+	font-weight:700;
+}
+#counter p{
+	color:white;
+	font-weight:700;
+}
+#counter{
+	background: url(../image/question.jpg) no-repeat center;
+    background-size: cover;
+	background-attachment:fixed;
+	font-weight:600;
+	color:white;
+	padding:10% 5%;
+	font-size:15pt;
+	text-align:center;
+	margin-bottom:0px;
+	font-weight:700;
+}
+/*---Awesome Package------*/
+#AwesomePackage .card-title{
+font-weight:700;
+	
+}
+#AwesomePackage p{
+	text-align:center;
+	color:gray;
+	font-family:'Raleway', sans-serif;
+}
+#AwesomePackage .card-body{
+	padding-bottom:10%;
+	margin:5% 0%;
+	height:150px;
+	margin-left:7%;
+	
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#AwesomePackage .f{
+	
+	color:gray;
+	float:right;
+}
+/*---Top Country To Visit part------*/
+#topCountry{
+	
+}
+#topCountry p{
+	text-align:center;
+	color:gray;
+	
+	
+}
+.card{
+	margin:5% 5%;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-text{
+	font-size:10pt;
+	padding:0px;
+	margin:0px;
+	color:black;
+	
+}
+.card img{
+	
+
+}
+.card-body{
+	padding:5%;
+	margin:2%;
+	height:80px;
+	width:300px;
+}
+/*gallerypage */
+#gbanar{
+padding:0px;
+margin:0px;
+
+}
+
+#gallerypage .col-sm-4 img:hover{
+background-color:red;
+
+}
+/*----   footer  -----*/
+#footer{
+	background-color:#28193b;
+	padding:80px 60px;
+	margin:0px;
+
+}
+.f_text h4{
+	color:white;
+	font-family:'Raleway', sans-serif;
+	text-align:center;
+	font-size:28pt;
+}
+.f_text{
+	
+	font-family:'Raleway', sans-serif;
+	text-align:center;
+	
+}
+.f_text p{
+	color:gray;
+	font-family:'Raleway', sans-serif;
+	text-align:center;
+	
+}
+#f_copy{
+	text-align:center;
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	background-color:#131339;
+	padding:0px;
+	margin:0px;
+}
+#f_copy p{
+	text-align:center;
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	
+	padding:50px 150px;
+	margin:0px;
+}
+.fas{
+color:red;
+}
+.f_icon a{
+	border:0px solid gray;
+	padding:4px 8px;
+	background-color:white;
+}
+/*----  mapvideo -----*/
+#mapvideo{
+	background-color:#ecf2f9;
+	height:auto;
+	width:100%;
+	padding:15px 0px;
+	margin-bottom:0px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+/*----  sms   -----*/
+.btn-submit{
+	background-color:#79ff4d;
+	padding:3% 15%;
+
+	border-radius:2%;
+}/*----
+#sms .col-md-6{
+		 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		  margin: 20px;
+		  border: 0px solid black;
+		  outline: 0px solid red;
+		  outline-offset: 15px;
+}  -----*/
+/*----  Client   -----*/
+#Client{
+	/* background-image: url("../image/c-5.jpg");*/
+background-position:no-repeat;
+	color:white;
+	width:100%;
+	height:auto;
+	}
+#Client{
+	background: url(../1482750543.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+	
+}
+
+#Client h4{
+	text-align:center;
+	color:white;
+}
+
+/*---- gallery-----*/
+#gallery{
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:8%;
+	
+}
+
+#gallery img{
+	margin:2%;
+	height:250px;
+	width:250px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+#gallery img:hover{
+	
+	
+}
+/*---- aboutus page -----*/
+#team {
+	text-align:center;
+}
+#team img{
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	text-align:center;
+	
+}
+#team h4{
+	text-align:center;
+	
+	
+}
+#team p{
+	text-align:center;
+	
+	
+}
+/*---- gallerypage-----*/
+#banner img{
+	width:100%;
+	height:550px;
+	padding-top:200px;
+	padding:0px;
+	margin:0px;
+	}
+#gallerypage h1{
+	padding-top:15%;
+}
+#gallerypage #gtext{
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#gallerypage p{
+	color:gray;
+	font-family:'Open Sans',sans-serif;
+	font-size:12pt;
+	padding-top:5%;
+	margin-right:5%;
+	text-align:center;
+	
+}
+#gallerypage .col-sm-8{
+	
+}
+#gallerypage{
+	
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:8%;
+	
+}
+#gallerypage img{
+	margin:2%;
+	height:250px;
+	width:250px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	height:30px;
+	width:40px;
+
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:2%;
+}
+#upper i{
+	font-size:2rem;
+	
+}
+.fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+/*---------chat---------*/
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #bd2c2c;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+
+  width: 200px;
+  z-index:3;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+ 
+.contact-form{
+	
+	
+	
+}
+
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: "slick";
+    src: url("./fonts/slick.eot");
+    src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    margin-top: -10px;
+    padding: 0;
+    border: none;
+    outline: none;
+    &:focus {
+        outline: none;
+    }
+    &.slick-disabled:before {
+        opacity: 0.25;
+    }
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    color: white;
+    opacity: 0.85;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -25px;
+    &:before {
+        content: '\2190';
+    }
+}
+
+.slick-next {
+    right: -25px;
+    &:before {
+        content: '\2192';
+    }
+}
+
+/* Dots */
+
+.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -45px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    li {
+        position: relative;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        margin: 0px 5px;
+        padding: 0px;
+        cursor: pointer;
+        button {
+            border: 0;
+            background: transparent;
+            display: block;
+            height: 20px;
+            width: 20px;
+            outline: none;
+            line-height: 0;
+            font-size: 0;
+            color: transparent;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            &:focus {
+                outline: none;
+            }
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: '\2022';
+                width: 20px;
+                height: 20px;
+                font-family: "slick";
+                font-size: 6px;
+                line-height: 20px;
+                text-align: center;
+                color: black;
+                opacity: 0.25;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+        &.slick-active button:before {
+            opacity: 0.75;
+        }
+    }
+}
+
+// DEMO styling //////////////////////////////////////////
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+.blue, html {
+    background: #3498db;
+    color: #fff;
+
+
+    h3 {
+        background: #fff;
+        color: #3498db;
+        font-size: 36px;
+        line-height: 100px;
+        margin: 10px;
+        padding: 2%;
+        position: relative;
+        text-align: center;
+        border: 1px solid #999;
+    }
+}
+
+
+/* Dots */
+
+.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -45px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    li {
+        position: relative;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        margin: 0px 5px;
+        padding: 0px;
+        cursor: pointer;
+        button {
+            border: 0;
+            background: transparent;
+            display: block;
+            height: 20px;
+            width: 20px;
+            outline: none;
+            line-height: 0;
+            font-size: 0;
+            color: transparent;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            &:focus {
+                outline: none;
+            }
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: '\2022';
+                width: 20px;
+                height: 20px;
+                font-family: "slick";
+                // font-size: 6px;
+                font-size: 20px;
+                line-height: 20px;
+                text-align: center;
+                // color: black;
+                color: white;
+                opacity: 0.25;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+        &.slick-active button:before {
+            opacity: 0.75;
+        }
+    }
+}
+/* login */

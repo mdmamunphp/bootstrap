@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="icon" href="image/flag-1.jpg">
+	
+		<!--sytlele icon -->
+		<link rel="stylesheet" href="css/all.css">
+		<!--sytlele sheet -->
+		<link rel="stylesheet" href="css/style.css">
+	
+
+    <title>Flight Booking</title>
+	<style>
+body {
+  font-family: "Lato", sans-serif;
+  text-align:left;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-attachment:fixed;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.4s;
+  text-align:center;
+}
+
+.sidenav a:hover {
+background-color: #0066ff;
+  color: #f1f1f1;
+  position:right;
+  text-align:center;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-align:left;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+  </head>
+  <body id="body">
+	
+<header><!---Header part -->
+		<div class="container-fluid">
+					<div id="top">
+						<ul class="nav justify-content-center">
+						   <a class="nav-link" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+							<a class="nav-link" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+							<a class="nav-link" href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+							<a class="nav-link" href="#"><i class="fas fa-phone-square-alt"></i>+0123456789</a>
+							<a class="nav-link" href="#"><i class="fas fa-at"></i>tourlover@gmail.com</a>
+							
+						</ul>
+					</div>
+					<nav class="navbar navbar-expand-lg">
+						 <a class="navbar-brand" href="#"><img src="home/beach.png" alt="company logo" style="height:40px;width:auto;flaot:right;"> Tour Lover</a>
+						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						  </button>
+
+						  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto">
+							 
+							</ul>
+							<div id="mySidenav" class="sidenav">
+							  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="image/back.png" style="max-width:50px;max-height:30px;" alt="..."></a>
+							  <a href="index.html">Home</a>
+							  <a href="aboutus.html">About</a>
+							  <a href="service.html">Services</a>
+							  <a href="tourpackage.html">Tour Package</a>
+							  <a href="popularplace.html">Tour Places</a>
+							
+							  <a href="gallery.html">Gallery</a>
+							  <a href="contact.html">Contact Us</a>
+							  <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#signin">
+								Sing In<!-- Button trigger modal sign in -->
+					   </a>
+							</div>
+						<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+							
+					  
+					 </div>
+				</nav>
+						
+		</div>	
+		<div class="container-fluid">
+				<div class="bd-example">
+				  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+					  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+					  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="DFWExteriorAirport.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+						 <h1>Tour Lover</h1>
+						  <p>Lorem Ipsum is simply dummy text of the printing and typesetting</br> industry. Lorem Ipsum has been the industry's standard.</p>
+						 
+						<button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+						  BOOK A TOUR</button>
+						<button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+						  AWESOME A PLACE</button>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img src="a380-800-airbus-aircraft-airliners-wallpaper-preview.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+						 <h1>Tour Lover</h1>
+						  <p>Lorem Ipsum is simply dummy text of the printing and typesetting</br> industry. Lorem Ipsum has been the industry's standard.</p>
+						  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+						  BOOK A TOUR</button>
+						<button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+						  AWESOME A PLACE</button>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img src="bg.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+						 <h1>Tour Lover</h1>
+						  <p>Lorem Ipsum is simply dummy text of the printing and typesetting</br> industry. Lorem Ipsum has been the industry's standard.</p>
+						  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+						  BOOK A TOUR</button>
+						<button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+						  AWESOME A PLACE</button>
+					  </div>
+					</div>
+					
+					<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+			</div>
+			</div>
+			</div>
+		
+
+				
+			<!-- Button trigger modal sign in -->
+					<!-- Modal -->
+					<div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+						<div class="modal-content">
+						  <div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  <span aria-hidden="true">&times;</span>
+							</button>
+						  </div>
+						  <div class="modal-body">
+								<form>
+								  <div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+									<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+								  </div>
+								  <div class="form-group">
+									<label for="exampleInputPassword1">Password</label>
+									<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								  </div>
+								  
+								  <div class="form-group form-check">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								  </div>
+								  <button type="submit" class="btn btn-primary">Submit</button>
+								   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+										Sign Up<!-- Button trigger modal sign up-->
+									</button>
+								</form>
+						  </div>
+						  
+						</div>
+					  </div>
+					</div>
+	</header>
+	
+<main>
+	<section id="AwesomePackage"><!---Awesome Package------>
+			<div class="container">
+				<h1><span style="color:black;">FLIGHT</span> BOOKING</h1>
+				<p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by</br> unwilling listening. Thing do taste on we manor. Him had wound.</p>
+				<div class="card-deck">
+				  <div class="card">
+					<img src="image/c-2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Safari Tour</h5>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.</p>
+					  
+							<p class="card-text"><small class="text-muted"> <a href="#" ><i class="fas fa-phone-square-alt"></i>+123456789</a></small></p>
+					</div>
+					<div class="card-footer">
+					  <small class="text-muted"><i class="f"><i class="fas fa-map-marker-alt"></i> Florida, USA</i><i><i class="fas fa-calendar-alt"></i>  28/07/2019</i></small>
+					</div>
+				  </div>
+				  <div class="card">
+					<img src="image/dal-lake-srinagar.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Helowin Felola</h5>
+					   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.</p>
+					   	<p class="card-text"><small class="text-muted"> <a href="#" ><i class="fas fa-phone-square-alt"></i>+123456789</a></small></p>
+					</div>
+					<div class="card-footer">
+					   <small class="text-muted"><i class="f"><i class="fas fa-map-marker-alt"></i> Florida, USA</i><i><i class="fas fa-calendar-alt"></i>  28/07/2019</i></small>
+					</div>
+				  </div>
+				  <div class="card">
+					<img src="image/c-5.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Felkao Elina</h5>
+					   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.</p>
+					   	<p class="card-text"><small class="text-muted"> <a href="#" ><i class="fas fa-phone-square-alt"></i>+123456789</a></small></p>
+					</div>
+					<div class="card-footer">
+					     <small class="text-muted"><i class="f"><i class="fas fa-map-marker-alt"></i> Florida, USA</i><i><i class="fas fa-calendar-alt"></i>  28/07/2019</i></small>
+					</div>
+				  </div>
+				  
+				</div>
+				<div class="card-deck">
+				  <div class="card">
+					<img src="image/c-2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Safari Tour</h5>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.</p>
+					  	<p class="card-text"><small class="text-muted"> <a href="#" ><i class="fas fa-phone-square-alt"></i>+123456789</a></small></p>
+					</div>
+					<div class="card-footer">
+					  <small class="text-muted"><i class="f"><i class="fas fa-map-marker-alt"></i> Florida, USA</i><i><i class="fas fa-calendar-alt"></i>  28/07/2019</i></small>
+					</div>
+				  </div>
+				  <div class="card">
+					<img src="image/dal-lake-srinagar.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Helowin Felola</h5>
+					   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.</p>
+					   	<p class="card-text"><small class="text-muted"> <a href="#" ><i class="fas fa-phone-square-alt"></i>+123456789</a></small></p>
+					</div>
+					<div class="card-footer">
+					   <small class="text-muted"><i class="f"><i class="fas fa-map-marker-alt"></i> Florida, USA</i><i><i class="fas fa-calendar-alt"></i>  28/07/2019</i></small>
+					</div>
+				  </div>
+				  <div class="card">
+					<img src="image/c-5.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Felkao Elina</h5>
+					   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.</p>
+					   	<p class="card-text"><small class="text-muted"> <a href="#" ><i class="fas fa-phone-square-alt"></i>+123456789</a></small></p>
+					</div>
+					<div class="card-footer">
+					     <small class="text-muted"><i class="f"><i class="fas fa-map-marker-alt"></i> Florida, USA</i><i><i class="fas fa-calendar-alt"></i>  28/07/2019</i></small>
+					</div>
+				  </div>
+				  
+				</div>
+		    </div>
+		</section>
+		
+		
+		
+	  <section id="mapvideo"><!---  video gallery   part------>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9107805780995!2d90.38579241409934!3d23.75056078458925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8bb51884d03%3A0xa8faf6fd1f993941!2sUS%20Software%20Limited!5e0!3m2!1sen!2sbd!4v1569743336281!5m2!1sen!2sbd" width="100%" height="400" frameborder="0" style="border:0;" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" allowfullscreen=""></iframe>
+					</div>
+					<div class="col-sm-6">
+						<iframe width="100%" height="400" src="https://www.youtube.com/embed/LqmratdBFNw" frameborder="3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" allowfullscreen></iframe>		
+				
+					</div>
+					
+				</div>
+				
+				
+					
+			</div>
+		</section>
+			<section id="footer">
+			
+		<div class="container-fluid">
+		<footer>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="f_text">
+							<h4>Location</h4>
+							<p>Monowara Plaza, 2nd Floor,</br> 69/B, Green Road,</br> Panthapath, Dhaka 1205</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="f_text">
+							<h4>Share with Love</h4>
+							<div class="f_icon">
+								<a href="#" ><i class="fab fa-facebook-f"></i></a>
+								<a href="#" ><i class="fab fa-twitter"></i></a>
+								<a href="#" ><i class="fab fa-linkedin"></i></a>
+							</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="f_text">
+							<h4>About TourLover</h4>
+							<p>Cras justo odio,dapibus ac facilisis in,egestas eget quam.Donec ullamcorper nulla non metus auctor fringilla.</p>
+					</div>
+				</div>
+			</div>
+			<div id="upper">
+					<i class="fas fa-chevron-circle-up"></i>
+				</div>
+			</footer>
+			
+		</div>
+	
+</section>
+		<section id="f_copy">
+	<div class="container-fluid">
+		
+					<P>Copyright © 2019 TourLover. All Rights Reserved</br> Made with <i class="fas fa-heart"></i> by Md Mamun Ahmed Sagor</p>
+				
+	</div>
+	</section>
+		
+	</main>
+		<!------extra ---------------->
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.js"></script>
+	<script rel="script" src="js/custom.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/slick-lightbox.js"></script>
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlights.min.js"></script> -->
+    <!-- // <script type="text/javascript">hljs.initHighlightingOnLoad();</script> -->
+	<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <script type="text/javascript">
+      $('#default-demo').slickLightbox();
+	  $('#default-demo2').slickLightbox();
+    </script>
+	
+  </body>
+<!--   http://rexbd.net/html/tramate/tramate/index.html?
+  https://preview.themeforest.net/item/farrell-tourism-and-entertainment-html-template/full_screen_preview/23387676?_ga=2.23230329.275337221.1570086322-1085122953.1569776078
+  
+  https://demo.w3layouts.com/demos_new/template_demo/10-09-2018/rambling_demo_Free/271780439/web/index.html -->
+</html>
